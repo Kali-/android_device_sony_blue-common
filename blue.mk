@@ -87,6 +87,10 @@ PRODUCT_COPY_FILES += \
     device/sony/blue-common/config/audio_policy.conf:system/etc/audio_policy.conf \
     device/sony/blue-common/config/media_codecs.xml:system/etc/media_codecs.xml
 
+# FM
+PRODUCT_PACKAGES += \
+    FM
+
 # Omx
 PRODUCT_PACKAGES += \
     libdivxdrmdecrypt \
